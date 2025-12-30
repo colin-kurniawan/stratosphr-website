@@ -22,7 +22,7 @@ const CTASection = () => {
           </p>
 
           {/* CTA Button */}
-          <a href="mailto:hello@stratosphr.com">
+          <a href="mailto:team@stratosphr.com">
             <Button variant="hero" size="xl" className="group mb-10">
               <Calendar className="mr-2" />
               Schedule Discovery Call
