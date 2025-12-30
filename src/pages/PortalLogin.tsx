@@ -123,13 +123,6 @@ const PortalLogin = () => {
               {isLoading ? "Signing in..." : "Sign In"}
             </Button>
           </form>
-
-          {/* Demo Hint */}
-          <div className="mt-6 p-4 rounded-lg bg-primary/10 border border-primary/20">
-            <p className="text-xs text-muted-foreground text-center">
-              <span className="text-primary font-medium">Demo:</span> Use any email and password (4+ chars) to log in
-            </p>
-          </div>
         </div>
 
         {/* Back to Home */}
