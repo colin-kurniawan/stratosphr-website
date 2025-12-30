@@ -75,7 +75,7 @@ const PricingSection = () => {
             >
               {/* Popular Badge */}
               {plan.popular && (
-                <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 bg-primary rounded-full text-xs font-semibold text-primary-foreground flex items-center gap-1">
+                <div className="absolute -top-1 left-1/2 -translate-x-1/2 px-4 py-1 bg-primary rounded-bl-full rounded-br-full text-xs font-semibold text-primary-foreground flex items-center gap-1 z-50">
                   <Star size={12} fill="currentColor" /> Most Popular
                 </div>
               )}

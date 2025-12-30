@@ -69,14 +69,10 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:flex items-center gap-4">
+          
           <Link to="/portal">
-            <Button variant="ghost" size="sm">
-              Client Login
-            </Button>
-          </Link>
-          <Link to="/#contact">
             <Button variant="default" size="sm">
-              Get Started
+              Login
             </Button>
           </Link>
         </div>
